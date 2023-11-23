@@ -1,9 +1,9 @@
 <script setup>
-import HomePage from '../components/HomePage.vue';
+import HomeMainPage from "../components/home-page/HomeMainPage.vue";
 </script>
 
 <template>
   <main>
-  <home-page />
+    <home-main-page />
   </main>
 </template>

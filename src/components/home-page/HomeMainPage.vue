@@ -1,9 +1,9 @@
 <script setup>
-import HomeNavbar from "./home-page/HomeNavbar.vue";
-import ServiceInfoCard from "./home-page/ServiceInfoCard.vue";
-import ContactForm from "./home-page/ContactForm.vue";
-import HomeFooter from "./home-page/HomeFooter.vue";
-import HomeSlider from "./home-page/HomeSlider.vue";
+import HomeNavbar from "../elements/HomeNavbar.vue";
+import ContactForm from "../elements/ContactForm.vue";
+import HomeFooter from "../elements/HomeFooter.vue";
+import ServiceInfoCard from "./ServiceInfoCard.vue";
+import HomeSlider from "./HomeSlider.vue";
 </script>
 <template>
   <div>
@@ -47,13 +47,12 @@ import HomeSlider from "./home-page/HomeSlider.vue";
     </div>
     <!-- contact form -->
     <div>
-        <ContactForm />
+      <contact-form />
     </div>
     <!-- footer -->
     <div>
       <home-footer />
     </div>
-
   </div>
 </template>
 

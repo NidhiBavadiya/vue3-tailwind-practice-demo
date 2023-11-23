@@ -1,6 +1,6 @@
 <script setup>
-import ContactTwitterIcon from '../svg-icon/ConatctTwitterIcon.vue'
-import ContactFacebookIcon from '../svg-icon/ContactFacebookIcon.vue'
+import ContactTwitterIcon from "../svg-icon/ConatctTwitterIcon.vue";
+import ContactFacebookIcon from "../svg-icon/ContactFacebookIcon.vue";
 </script>
 
 <template>
@@ -8,10 +8,12 @@ import ContactFacebookIcon from '../svg-icon/ContactFacebookIcon.vue'
     <div class="my-8">
       <label class="text-white text-xl">JAMES CONSULTING</label>
       <p class="text-white leading-6 tracking-wider pt-5">
-        500 Terry Francine Street, <br>
-        San Francisco, CA 94158 <br>
-        Mail:<a href="mailto:info@mysite.com"> info@mysite.com</a>  <br>
-        Tel: <a href="tel:+123-456-7890">123-456-7890</a>  
+        500 Terry Francine Street,
+        <br />San Francisco, CA 94158
+        <br />Mail:
+        <a href="mailto:info@mysite.com">info@mysite.com</a>
+        <br />Tel:
+        <a href="tel:+123-456-7890">123-456-7890</a>
       </p>
     </div>
     <div class="my-8">
@@ -32,8 +34,8 @@ import ContactFacebookIcon from '../svg-icon/ContactFacebookIcon.vue'
         <contact-twitter-icon />
       </div>
       <p class="text-white leading-6 tracking-wider pt-5">
-        © 2035 by JAMES CONSULTING. <br>
-        Powered and secured by Wix
+        © 2035 by JAMES CONSULTING.
+        <br />Powered and secured by Wix
       </p>
     </div>
   </div>
